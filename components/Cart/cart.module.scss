@@ -1,0 +1,39 @@
+.container {
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 500px;
+  padding: 3rem 2rem;
+  background-color: #000;
+
+  h3,
+  p {
+    margin-bottom: 3rem;
+  }
+}
+
+.closeIcon {
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+  padding: 0.5rem;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.goToCheckout {
+  padding: 15px 25px;
+  border: none;
+  outline: none;
+  background-color: #0070f3;
+  color: #dedede;
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+
+  &:active {
+    transform: scale(0.98);
+  }
+}

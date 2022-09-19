@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  padding: 2rem;
+}
+
+.imageContainer {
+  position: relative;
+  width: 500px;
+  height: 600px;
+  margin-right: 3rem;
+  flex-shrink: 0;
+}
+
+.infoContainer {
+  flex: 1;
+}
+
+.title {
+  margin: 0 0 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.info {
+  margin: 0 0 1rem;
+  padding: 1rem 0 0;
+  border-top: 1px solid rgba(#dedede, 0.3);
+  font-size: 2rem;
+}
+
+.buttonsContainer {
+  display: flex;
+  margin: 3rem 0 0;
+}
+
+.buttonsContainer button {
+  padding: 15px 25px;
+  border: 1px solid #dedede;
+  outline: none;
+  background-color: transparent;
+  color: #dedede;
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+
+  &:active {
+    transform: scale(0.98);
+  }
+}
+
+.buttonsContainer .addToCart {
+  margin-right: 2rem;
+  border: none;
+  background-color: #0070f3;
+}
